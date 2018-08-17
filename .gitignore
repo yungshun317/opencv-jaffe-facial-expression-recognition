@@ -3,11 +3,11 @@
 
 # Built by
 # mkdir build && cd build && cmake .. && make
-# ./facial_components -src ../datasets/jaffe -dest ../datasets/jaffe/output
+# ./facial_components -src ../datasets/jaffe -dest ../datasets/jaffe/facial_components
+# ./feature_extraction -feature <brisk or kaze or sift or surf or dense-sift or daisy> -src ../datasets/jaffe/facial_components -dest ../datasets/jaffe/feature_extraction
 datasets/
 
 # C++ objects and libs
-
 *.slo
 *.lo
 *.o
@@ -19,7 +19,6 @@ datasets/
 *.dylib
 
 # Qt-es
-
 *.pro.user
 *.pro.user.*
 moc_*.cpp
@@ -30,7 +29,6 @@ Makefile*
 build/
 
 # QtCreator
-
 *.autosave
 
 # rpmbuild
