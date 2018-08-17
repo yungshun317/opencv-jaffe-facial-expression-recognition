@@ -5,6 +5,7 @@
 # mkdir build && cd build && cmake .. && make
 # ./facial_components -src ../datasets/jaffe -dest ../datasets/jaffe/facial_components
 # ./feature_extraction -feature <brisk or kaze or sift or surf or dense-sift or daisy> -src ../datasets/jaffe/facial_components -dest ../datasets/jaffe/feature_extraction
+# ./train -algo <svm or mlp or knn or bayes> -src ../datasets/jaffe/feature_extraction/brisk_features.yml -dest ../datasets/jaffe/models
 datasets/
 
 # C++ objects and libs
